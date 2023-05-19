@@ -1,0 +1,1 @@
+This folder will store your batch eval results if you run with `--save_result`
