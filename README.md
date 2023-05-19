@@ -1,5 +1,5 @@
 # ReWOO
-Author implementation for _ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models._
+Official implementation for paper: _ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models._
 This is a tool-augmented LM paradigm, leveraging _foreseeable reasoning_ ability of language models to improve system parameter and prompt efficiency.
 
 
@@ -7,7 +7,7 @@ This is a tool-augmented LM paradigm, leveraging _foreseeable reasoning_ ability
 ```
 pip install -r requirements.txt
 ```
-Generate API keys from [OpenAI](https://openai.com/blog/openai-api) and [SerpApi](https://serpapi.com/) then save to `./keys/openai.key` and `./keys/serpapi.key` respectively.
+Generate API keys from [OpenAI](https://openai.com/blog/openai-api) and [SerpApi](https://serpapi.com/). Then save the keys to `./keys/openai.key` and `./keys/serpapi.key` respectively.
 
 
 ## Single Run
@@ -29,5 +29,6 @@ python run_eval.py --method rewoo --dataset hotpot_qa --sample_size 10 --toolset
 ```
 
 Use `--sample_size` to specify number of samples to evaluate.
+
 Use `--save_result` to save evaluation results to `./results/`.
 
