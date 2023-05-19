@@ -1,5 +1,5 @@
 # ReWOO
-Official implementation for paaper: _ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models._
+Official implementation for paper: _ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models._
 This is a tool-augmented LM paradigm, leveraging _foreseeable reasoning_ ability of language models to improve system parameter and prompt efficiency.
 
 
