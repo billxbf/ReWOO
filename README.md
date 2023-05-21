@@ -7,7 +7,7 @@ This is a tool-augmented LM paradigm, leveraging _foreseeable reasoning_ ability
 ```
 pip install -r requirements.txt
 ```
-Generate API keys from [OpenAI](https://openai.com/blog/openai-api) and [SerpApi](https://serpapi.com/). Then save the keys to `./keys/openai.key` and `./keys/serpapi.key` respectively.
+Generate API keys from [OpenAI](https://openai.com/blog/openai-api), [WolframAlpha](https://products.wolframalpha.com/api) and [SerpApi](https://serpapi.com/). Then save the keys to `./keys/openai.key`, `./keys/wolfram.key` and `./keys/serpapi.key` respectively.
 
 
 ## Single Run
