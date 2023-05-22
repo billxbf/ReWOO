@@ -32,3 +32,8 @@ Use `--sample_size` to specify number of samples to evaluate.
 
 Use `--save_result` to save evaluation results to `./results/`.
 
+## Data & Model
+
+Except public NLP benchmarks, we also evaluate ReWOO on a curated QA dataset over SOTU2023 [here](https://huggingface.co/datasets/rewoo/sotu_qa_2023). It is especially useful for ALMs to examine the model's tool-augmented ability in answering over private document.
+
+We uploaded our instruction-tuned Planner 7B model (based on Alpaca 7B) [here](https://huggingface.co/rewoo/planner_7B). The instruction dataset (available [here](https://huggingface.co/datasets/rewoo/planner_instruction_tuning_2k/blob/main/README.md)) is a mixture of "correct" HotpotQA and TriviaQA task planning trajectories in ReWOO Framework.
