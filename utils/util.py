@@ -2,7 +2,7 @@ from prompts import fewshots
 
 OPENAI_COMPLETION_MODELS = ["text-davinci-003"]
 OPENAI_CHAT_MODELS = ["gpt-3.5-turbo"]
-LLAMA_WEIGHTS = ["tloen/alpaca-lora-7b", "alpaca-lora/lora-alpaca-planner", "billxbf/specialized-rewoo-planner-7b"]
+LLAMA_WEIGHTS = ["tloen/alpaca-lora-7b", "rewoo/planner_7B"]
 
 DEFAULT_EXEMPLARS_COT = {"hotpot_qa": fewshots.HOTPOTQA_COT,
                          "trivia_qa": fewshots.TRIVIAQA_COT,
