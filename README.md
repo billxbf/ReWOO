@@ -1,8 +1,8 @@
 # ReWOO 🦙
 <p align="left">
-  <a href="https://huggingface.co/spaces/rewoo/ReWOO-Demo">Live Demo</a> •
-  <a href="https://arxiv.org/abs/2305.18323">Paper</a> •
-  <a href="https://twitter.com/billxbf/status/1663713374910251009?s=20">Twitter</a> •
+  <a href="https://huggingface.co/spaces/rewoo/ReWOO-Demo">Live Demo</a> |
+  <a href="https://arxiv.org/abs/2305.18323">Paper</a> |
+  <a href="https://twitter.com/billxbf/status/1663713374910251009?s=20">Twitter</a> 
 </p>
 
 Official implementation for paper: _ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models._
