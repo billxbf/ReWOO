@@ -56,3 +56,13 @@ We uploaded our instruction-tuned Planner 7B model (based on Alpaca 7B) [here](h
 python app.py
 ```
 (Make sure your openai and serpapi keys are stored under `./keys/` as mentioned in Installation 👆)
+
+# Citation
+```
+@article{xu2023rewoo,
+  title={ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models},
+  author={Xu, Binfeng and Peng, Zhiyuan and Lei, Bowen and Mukherjee, Subhabrata and Liu, Yuchen and Xu, Dongkuan},
+  journal={arXiv preprint arXiv:2305.18323},
+  year={2023}
+}
+```
