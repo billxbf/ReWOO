@@ -9,11 +9,6 @@ from algos.PWS import *
 from utils.util import *
 
 def process(tools, model, input_text):
-    # This is a placeholder function. Replace it with your own logic.
-    planner = "Planner output for " + input_text
-    solver = "Solver output for " + input_text
-    output = "Output for " + input_text
-
     method = PWS_Base(planner_model=model, solver_model=model,
                   fewshot=fewshots.TRIVIAQA_PWS, available_tools=tools)
     response = method.run(input_text)
