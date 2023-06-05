@@ -25,7 +25,7 @@ parser.add_argument('--planner_lm',
                     type=str,
                     help='Base LM for Planner. Default to base_lm')
 
-parser.add_argument('--sovler_lm',
+parser.add_argument('--solver_lm',
                     type=str,
                     help='Base LM for Solver. Default to base_lm')
 
@@ -68,11 +68,11 @@ def main(args):
     elif args.method == 'rewoo':
         if args.planner_lm is None:
             args.planner_lm = args.base_lm
-        if args.sovler_lm is None:
-            args.sovler_lm = args.base_lm
+        if args.solver_lm is None:
+            args.solver_lm = args.base_lm
         if args.exemplar is None:
             args.exemplar = fewshots.TRIVIAQA_PWS
-        method = PWS_Base(planner_model=args.planner_lm, solver_model=args.sovler_lm,
+        method = PWS_Base(planner_model=args.planner_lm, solver_model=args.solver_lm,
                           fewshot=args.exemplar, available_tools=args.toolset)
         response = method.run(task)
         if args.print_trajectory:
