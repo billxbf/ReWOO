@@ -31,7 +31,7 @@ Use `--method` to choose your prompt paradigm among `'direct', 'cot', 'react', '
 
 Use `--toolset` to provide available tools, including `'Google', 'Wikipedia', 'WolframAlpha', 'LLM', 'Calculator', 'SearchSOTU'`
 
-Use `--base_lm` to choose a base language model, can be either `gpt-3.5-turbo`, `text-davinci-003` or `directory_to_alpca-lora_adapter`. You can also individually assign `--planner_lm` and `--solver_lm` for `rewoo`. 
+Use `--base_lm` to choose a base language model, can be either `gpt-3.5-turbo`, `text-davinci-003`, `gpt-4` or `path_to_alpca-lora_adapter`. You can also individually assign `--planner_lm` and `--solver_lm` for `rewoo`. 
 
 Add `--print_trajectory` to print intermediate reasoning.
 
