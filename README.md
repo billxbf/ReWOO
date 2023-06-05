@@ -9,7 +9,7 @@ Official implementation for paper: _ReWOO: Decoupling Reasoning from Observation
 This is a tool-augmented LM paradigm, leveraging _foreseeable reasoning_ ability of language models to improve system parameter and prompt efficiency.
 
 <p align="center">
-  <img width="900" height="510" src="./rewoo.png">
+  <img width="900" height="500" src="./rewoo.png">
 </p>
 
 ## Overview 🤗
