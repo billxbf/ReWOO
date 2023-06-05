@@ -1,7 +1,7 @@
 from prompts import fewshots
 
 OPENAI_COMPLETION_MODELS = ["text-davinci-003"]
-OPENAI_CHAT_MODELS = ["gpt-3.5-turbo"]
+OPENAI_CHAT_MODELS = ["gpt-3.5-turbo", "gpt-4"]
 LLAMA_WEIGHTS = ["tloen/alpaca-lora-7b", "rewoo/planner_7B"]
 
 DEFAULT_EXEMPLARS_COT = {"hotpot_qa": fewshots.HOTPOTQA_COT,
@@ -33,7 +33,10 @@ def get_token_unit_price(model):
     if model in OPENAI_COMPLETION_MODELS:
         return 0.00002
     elif model in OPENAI_CHAT_MODELS:
-        return 0.000002
+        if model == "gpt-3.5-turbo":
+            return 0.000002
+        elif model == "gpt-4":
+            return 0.00003
     elif model in LLAMA_WEIGHTS:
         return 0.0
     else:

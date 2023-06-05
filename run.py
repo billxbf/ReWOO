@@ -1,5 +1,7 @@
 import argparse
 import os
+import warnings
+warnings.filterwarnings("ignore")
 
 parser = argparse.ArgumentParser(description='Eval Arguments.')
 parser.add_argument('--method',
