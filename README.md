@@ -40,6 +40,7 @@ Add `--print_trajectory` to print intermediate reasoning.
 ```
 python run_eval.py --method rewoo --dataset hotpot_qa --sample_size 10 --toolset Wikipedia LLM --base_lm gpt-3.5-turbo --save_result`
 ```
+Use `--dataset` to assign benchmark tasks, this can be `'hotpot_qa', 'trivia_qa', 'gsm8k', 'physics_question', 'sports_understanding', 'strategy_qa', 'sotu_qa'`
 
 Use `--sample_size` to specify number of samples to evaluate.
 
