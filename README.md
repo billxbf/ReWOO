@@ -59,7 +59,7 @@ python app.py
 (Make sure your openai and serpapi keys are stored under `./keys/` as mentioned in Installation 👆)
 
 # Citation
-```
+```bibtex
 @article{xu2023rewoo,
   title={ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models},
   author={Xu, Binfeng and Peng, Zhiyuan and Lei, Bowen and Mukherjee, Subhabrata and Liu, Yuchen and Xu, Dongkuan},
