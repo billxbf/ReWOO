@@ -1,6 +1,6 @@
 # ReWOO 🦙
 <p align="left">
-  <a href="https://github.com/Gentopia-AI/Gentopia">Gentopia</a> 
+  <a href="https://github.com/Gentopia-AI/Gentopia">Gentopia</a> 🦙🌎|
   <a href="https://huggingface.co/spaces/rewoo/ReWOO-Demo">Live Demo</a> |
   <a href="https://arxiv.org/abs/2305.18323">Paper</a> |
   <a href="https://twitter.com/billxbf/status/1663713374910251009?s=20">Twitter</a> 
