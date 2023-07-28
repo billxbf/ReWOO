@@ -5,12 +5,19 @@
   <a href="https://twitter.com/billxbf/status/1663713374910251009?s=20">Twitter</a> 
 </p>
 
-Official implementation for paper: _ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models._
+Original implementation for paper: _ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models._
 This is a tool-augmented LM paradigm, leveraging _foreseeable reasoning_ ability of language models to improve system parameter and prompt efficiency.
 
 <p align="center">
   <img width="900" height="500" src="./rewoo.png">
 </p>
+
+⚠️ **Beaking News** 
+
+The official (and better) implementation of ReWOO has been integrated into [Gentopia](https://github.com/Gentopia-AI/Gentopia). Check below how it 
+helps an agent called `elon` to half the execution time from ReAct.
+
+https://github.com/billxbf/ReWOO/assets/65674752/a7c7772f-7e84-453f-9b1e-782cf2b4589a
 
 ## Abstract 🤗
 
@@ -23,6 +30,8 @@ This study addresses such challenges for the first time, proposing a modular par
 Comprehensive evaluations across six public NLP benchmarks and a curated dataset reveal consistent performance enhancements with our proposed methodology. Notably, ReWOO achieves 5× token efficiency and 4% accuracy improvement on HotpotQA, a multi-step reasoning benchmark. 
 
 Furthermore, ReWOO demonstrates robustness under tool-failure scenarios. Beyond prompt efficiency, decoupling parametric modules from nonparametric tool calls enables instruction fine-tuning to offload LLMs into smaller language models, thus substantially reducing model parameters. Our illustrative work offloads reasoning ability from 175B GPT3.5 into 7B LLaMA, demonstrating the significant potential for truly efficient and scalable ALM systems. 🦙
+
+
 
 ## Installation 🔧
 ```
